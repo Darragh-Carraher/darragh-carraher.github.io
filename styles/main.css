@@ -1,0 +1,17 @@
+body {
+    background-color: yellow;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    font-family:monospace;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    font-family:inherit;
+    margin-block: 5px;
+}
+
