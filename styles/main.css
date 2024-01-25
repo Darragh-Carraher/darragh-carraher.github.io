@@ -43,6 +43,10 @@ a:hover {
     text-shadow: 1px 1px rgb(128, 0, 0);
 }
 
+a:link {
+    color: purple
+}
+
 .footer {
     background-color: rgb(231, 213, 45);
     text-align: center;
