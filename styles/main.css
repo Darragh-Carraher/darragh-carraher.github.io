@@ -88,11 +88,7 @@ header {
 	background: rgba(176, 194, 11, 0.623);
 	padding: 5px 10px;
 	text-align: center;
-	transition-duration: .15s;
-	transition-property: all;
-	transition-timing-function: cubic-bezier(.4,0,.2,1);
-	margin: 0px 10px 2px 5px;
-
+    margin: 0px
 }
 
 
