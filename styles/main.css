@@ -2,6 +2,9 @@ body {
     
     background: radial-gradient(rgba(255, 196, 0, 0.705), rgba(255, 166, 0, 0.616));
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     
 }
 h1 {
@@ -34,11 +37,6 @@ h2, h3 {
     color: yellow;
 }
 
-ul {
-    list-style-type: none;
-}
-
-
 a:hover {
     text-shadow: 1px 1px rgb(128, 0, 0);
 }
@@ -48,12 +46,13 @@ a:link {
 }
 
 .footer {
-    background-color: rgb(231, 213, 45);
+    background-color: rgba(165, 120, 20, 0.651);
     text-align: center;
-    position: absolute;
+    padding: 10px 20px;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;
+    z-index: 1000;
+    margin-top: auto;
 }  
 
 #page-container {
@@ -90,5 +89,4 @@ header {
 	text-align: center;
     margin: 0px
 }
-
 
